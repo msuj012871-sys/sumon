@@ -747,7 +747,7 @@ def load_jwt_token():
 
 def get_player_info(uid, token):
     """Get player info - modified to accept token"""
-    url = "https://client.bd.freefiremobile.com/GetPlayerPersonalShow"
+    url = "https://clientbp.ggblueshark.com/UpdateSocialBasicInfo"
     
     encrypted_uid = enc(uid)
     edata = bytes.fromhex(encrypted_uid)
