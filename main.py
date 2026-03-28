@@ -3074,7 +3074,7 @@ def get_level_info(uid):
 
 def get_player_ban_status(uid):
     try:
-        url = f"https://ban-check-lime.vercel.app/bancheck?uid={uid}&region=bd"
+        url = f"https://sumon-ban.vercel.app/bancheck?uid={uid}&key=sumon9x"
         res = requests.get(url, timeout=10)
 
         if res.status_code == 200:
@@ -9885,20 +9885,20 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                     # Rest of your code continues here...
                                     messages = [
                                         "{Name} তুমি একটা বোকাচো🙂দা",
-    "{Name} তোমার বা🙂বা হাছিব",
+    "{Name} তোমার বা🙂বা সুমন",
     "{Name} আমি কাইললা ছেরা",
     "{Name} তোমার নুনু ছোট",
     "{Name} তুমি একটা মাদারচো🙂দ",
     "{Name} তুমি একটা বাইনচো🙂দ",
     "{Name} তুমি হাছিব এর ছেলে",
-    "{Name} তোমার বাবা হাছিব",
+    "{Name} তোমার বাবা সুমন",
     "{Name} তুমি সত্যিই বিশেষ একজন",
     "{Name} আমি হিজ🙂লা",
     "{Name} তুমি গা🙂দা",
     "{Name} তুমি একটা Mc",
     "{Name} তুমি হেন🙂ডেল মারো",
     "{Name} তোমার ৯ু৯ু খারায় না",
-    "{Name} তুমি হাছিব এর চামচা",
+    "{Name} তুমি সুমন এর চামচা",
     "{Name} তুমি মা🙂গি",
     "{Name} তুমি বাতরুম এর কাজ করো"
                                             ]
