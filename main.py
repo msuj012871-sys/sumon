@@ -3252,7 +3252,7 @@ async def bundle_packet_async(bundle_id, key, iv, region="ind"):
 
 def get_player_info(uid):
     try:
-        url = f"https://re-toxic-ff-info.vercel.app/player-info?uid={uid}"
+        url = f"http://mg24-gamer-king.vercel.app/info/get?uid={uid}"
         res = requests.get(url, timeout=10)
 
         if res.status_code != 200:
