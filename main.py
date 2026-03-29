@@ -3278,7 +3278,7 @@ def get_player_info(uid):
 def send_likes(uid):
     try:
         res = requests.get(
-            f"https://9x-like.vercel.app/like?uid={uid}&server_name=bd",
+            f"https://druu-likes-15-day.vercel.app/like?uid={uid}&server_name=bd",
             timeout=15
              )
       
