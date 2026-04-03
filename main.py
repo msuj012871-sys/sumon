@@ -10632,6 +10632,31 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [00FFFF]└ Status : [00FFFF]Premium Active
 
 [FFA64D]━━━━━━━━━━━━━━━━━"""
+						        await safe_send_message(response.Data.chat_type, basic, uid, chat_id, key, iv)
+                                await asyncio.sleep(0.2)
+        
+
+                            emotes = """[B][C][00FFFF]╭[00FFFF]─[00FFFF]╮[00FFFF]╔═══════╗
+[C][B][00FFFF]│[00FFFF]ꚠ[00FFFF]│[00FFFF]║[FFFFFF]⚡BADGE REQUEST⚡[00FFFF]║
+[C][B][00FFFF]╰[00FFFF]─[00FFFF]╯[00FFFF]╚═══════╝
+
+[00FFFF]✦ [FFFFFF]Craftland Badge
+   [00FFFF]┗➤ [00FFFF]/V1 [00FFFF][uid]
+
+[00FFFF]✦ [FFFFFF]New V-Badge
+   [00FFFF]┗➤ [00FFFF]/V2 [00FFFF][uid]
+
+[00FFFF]✦ [FFFFFF]Moderator Badge
+   [00FFFF]┗➤ [00FFFF]/V3 [00FFFF][uid]
+
+[00FFFF]✦ [FFFFFF]Small V-Badge
+   [00FFFF]┗➤ [00FFFF]/V4 [00FFFF][uid]
+
+[00FFFF]✦ [FFFFFF]Pro Badge
+   [00FFFF]┗➤ [00FFFF]/V5 [00FFFF][uid]
+
+[00FFFF]✦ [FFFFFF]All Badges (V1–V5)
+   [00FFFF]┗➤ [00FFFF]/spam [uid]"""
 
                             await safe_send_message(response.Data.chat_type, spam_cmnd, uid, chat_id, key, iv)
                             await asyncio.sleep(0.2)
