@@ -9063,7 +9063,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 ╚═════════════╝"""
 
 
-						 if inPuTMsG.strip() == "/luck":
+					    if inPuTMsG.strip() == "/luck":
                             # Process /luck command in any chat type
                             admin_message = """
 [C][B][00FFFF]╔══════════╗
@@ -9078,7 +9078,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 ║                                       
 ║ ⚡ [FF00FF] SUMON 9X VIP BOT ⚡   
 ╚═════════════╝"""
-						 if inPuTMsG.strip() == "/luck":
+					    if inPuTMsG.strip() == "/luck":
                             # Process /luck command in any chat type
                             admin_message = """
 [C][B][00FFFF]╔══════════╗
