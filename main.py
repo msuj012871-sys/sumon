@@ -10535,7 +10535,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         # IMPROVED HELP MENU SYSTEM - AUTOMATIC MULTI-PART
                         # IMPROVED HELP MENU SYSTEM - TREE STYLE FORMAT
                         if inPuTMsG.strip().lower() in ("5", "/help", "hi", "hello", "5"):
-                            print(f"Help command detected from UID: {uid} in chat type: {XX}")
+                            pFFF(f"Help command detected from UID: {uid} in chat type: {XX}")
     
 
     
@@ -10582,7 +10582,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [00FFFF]━━ FUN TEXTS ━━
 [FFFFFF]│ [00FFFF] no[00FFFF]ob
 [FFFFFF]│ [00FFFF] /mg [00FFFF][txt]
-FFFFFF]│ [00FFFF] /dm [00FFFF][uid][00FFFF][txt]
+FFFFFF]│ [00FFFF] /dm  [uid][00FFFF][txt]
 [FFFFFF]└ [00FFFF]/msg [00FFFF][text]
 [FFFF00]━━━━━━━━━━━━━━━━━━"""
 
