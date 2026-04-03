@@ -9059,7 +9059,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 ║                                       
 ║ ────────────── 
 ║                                       
-║ ⚡ [FF00FF] Hᴀsɪʙ Cᴏᴅᴇx VIP BOT ⚡   
+║ ⚡ [FF00FF] SUMOM 9X VIP BOT ⚡   
 ╚═════════════╝"""
                             await safe_send_message(response.Data.chat_type, admin_message, uid, chat_id, key, iv)
 
