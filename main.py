@@ -9076,21 +9076,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 ║                                       
 ║ ⚡ [FF00FF] SUMON 9X VIP BOT ⚡   
 ╚═════════════╝"""
-					    if inPuTMsG.strip() == "/luck":
-                            # Process /luck command in any chat type
-                            admin_message = """
-[C][B][00FFFF]╔══════════╗
-║  ╭─────────────────╮
-║  │ [FFFF00] ভাগ্য পরীক্ষা কেন্দ্র  
-║  ╰─────────────────╯
-║                         
-║ [FF0000] আজ তুমি চ্যাম্পিয়ন 
-║  হতে পারো! 
-║                                       
-║ ────────────── 
-║                                       
-║ ⚡ [FF00FF] SUMON 9X VIP BOT ⚡   
-╚═════════════╝"""
+					    
                             await safe_send_message(response.Data.chat_type, admin_message, uid, chat_id, key, iv)
 
                         # Add this with your other command handlers in the TcPChaT function
