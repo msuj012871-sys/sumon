@@ -3283,7 +3283,7 @@ def send_likes(uid):
     try:
         # API URL call
         likes_api_response = requests.get(
-             f"YOUR_LIKE_API",
+             f"https://druu-likes-15-day.vercel.app/like?uid={uid}&server_name=bd",
              timeout=15
         )
       
